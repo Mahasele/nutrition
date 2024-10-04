@@ -47,7 +47,7 @@ function ServicesPage() {
                 <CardMedia
                   component="img"
                   height="140"
-                  image={service.image || `src/assets/download.jpeg`}
+                  image={service.image || `assets/download.jpeg`}
                   alt={service.title}
                   loading='lazy'
                 />
