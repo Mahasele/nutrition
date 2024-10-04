@@ -57,7 +57,7 @@ function HomePage() {
             </Grid>
             <Grid item xs={12} md={6}>
               <img 
-                src="src/assets/hero.jpeg"
+                src="assets/hero.jpeg"
                 alt="Healthy Food"
                 style={{ width: '100%', borderRadius: '8px' }}
                 loading='lazy'
@@ -77,7 +77,7 @@ function HomePage() {
                 <CardMedia
                   component="img"
                   height="140"
-                  image={service?.image || `src/assets/download.jpeg`}
+                  image={service?.image || `assets/download.jpeg`}
                   alt={service.title}
                   loading='lazy'
                 />
