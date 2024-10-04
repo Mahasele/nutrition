@@ -1,0 +1,197 @@
+*{
+  box-sizing: border-box;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding:2rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.formStyle {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.inputStyle {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
+.css-i4bv87-MuiSvgIcon-root{
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+  font-size: 2.5rem !important;
+}
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
+  background-color: #007bff !important;
+}
+.error{
+  background-color: rgba(255, 0, 0, 0.178);
+  color: red;
+  padding: 8px 10px;
+}
+.success {
+  background-color: rgba(0, 255, 0, 0.178);
+  color: green;
+  padding: 8px 10px;
+}
+#root {
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  min-height: 100vh;
+}
+.pro{
+  align-items: flex-end !important;
+  gap: 0;
+}
+a.menu-link{
+  color: #000 !important;
+}
+.sign {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 3px;
+  margin: 10px 0;
+}
+.sign a{
+  text-decoration: underline;
+  color: #007bff !important;
+  text-underline-offset: 3px;
+}
+a {
+  color: aliceblue !important;
+  font-size: 1rem !important;
+  padding: 5px 8px ;
+  
+}
+.login{
+  min-height: 100vh;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.MuiToolbar-root div {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.logout{
+  color: #ddd;
+  background-color: #000;
+}
+.active {
+  border-bottom:2px solid #ddd  ;
+  transition: border-bottom 1s linear;
+}
+.side-bar{
+  background-color: #1976d2;
+  position: fixed;
+  top: 50px;
+  bottom: 0;
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 222;
+  padding: 20px 0;
+  transition: width 10s;
+
+}
+.main{
+  display: flex;
+  padding-top: 80px;
+  width: 100%;
+}
+button:focus{
+  outline: none !important;
+}
+.content {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px 15px;
+  align-items: center;
+  width: 100%;
+  transition: background-color 1s;
+  gap: 10px;
+}
+.content:hover{
+  background-color: #00000067;
+}
+.active-link{
+  background-color: #0000007e;
+}
+select {
+      font: inherit;
+      letter-spacing: inherit;
+      color: grey;
+      background-color: none;
+      padding: 8px 10px;
+      margin: 0;
+      -webkit-tap-highlight-color: transparent;
+      display: block;
+      min-width: 0;
+      width: 100%;  
+      border: 1px solid rgba(128, 128, 128, 0.644);   
+      font-size: larger;
+      border-radius: 5px;
+}
+
+.goal {
+  margin-top: 15px;
+}
+.PhoneInputInput{
+  padding: 16.5px 14px;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.644);
+  font-size: larger;
+}
+.PhoneInput input:focus{
+  border: 2px solid #1976d2;
+  outline: none;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
