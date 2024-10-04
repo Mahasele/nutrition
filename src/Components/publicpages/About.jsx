@@ -32,7 +32,7 @@ function AboutPage() {
             </Grid>
             <Grid item xs={12} md={6}>
               <img 
-                src="src/assets/file.png"
+                src="assets/file.png"
                 alt="Healthy Food"
                 style={{ width: '200px', borderRadius: '8px' }}
                 loading='lazy'
